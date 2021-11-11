@@ -1,0 +1,218 @@
+:root {
+    --one:#2196F3; 
+    --two:#FFFFFF;  
+    --full: #212121;     
+    --light: #757575; 
+}
+
+ul {list-style: none;}
+a {text-decoration: none;}
+a:hover,
+a:focus{
+    color: var(--one);
+}
+body {
+    font-family: roboto,  sans-serif;    
+    }
+    
+
+
+    /*main-section*/
+    main {  
+
+       }
+    ul {list-style: none;}
+    /*header-section*/    
+    .header{        
+        text-decoration: none;
+       
+    }
+    .h-name-blue {
+        
+        color: var(--one); 
+        font-family: Raleway;        
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+    }
+    .h-name-black-d {
+        
+        color:var(--full);
+        font-family: Raleway;        
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+    }    
+    
+    /*navigation*/       
+    .navigation-list {
+        color: var(--full);
+       
+    }
+    .navigation-list-item {
+        color: #000;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        
+    }
+    .navigation-list-item-active{
+        color: var(--one);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+    }
+
+    .contacts {
+        color: var(--light);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;        
+    }         
+    /*Effective-solutions-section*/
+    .hero-section {
+        background-color:#2F303A;
+        text-align: center;
+        
+        
+    }
+    .hero-title{
+        font-weight: 900;        
+        font-size: 44px;
+        line-height: 1.36;        
+        color:var(--two) ;    
+        letter-spacing: 6%;
+        text-transform: uppercase;            
+    }
+    .hero-button{
+        font-family: inherit;
+        color: var(--two);
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.9;
+        background-color: var(--one);             
+    }
+    .hero-button:hover, 
+    .hero-button:focus {
+        color: #000;
+        background-color: #FFFFFF;
+    }
+   
+    
+    
+    /*what-we-do-section*/
+     .what-we-do-section{
+
+     }
+     .section-title{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+     }
+    .features-title{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.17;
+        text-transform: uppercase;
+    }
+    .features-desc{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+        color: var(--light);
+    }
+    
+
+/*our-team-section*/
+.our-team-section{
+
+}
+.member-name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    color: var(--full);
+}
+.member-desc{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    color: var(--light);
+}
+
+
+/*portfolio-section-buttons*/
+
+.portfolio-what-we-do-section {
+
+}
+.button{
+    font-family: inherit;
+    color: var(--full);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;      
+}
+.button:hover,
+.button:focus{
+        color: var(--two);
+        background-color:var(--one);
+    }
+   
+/*portfolio-section*/
+
+.portfolio-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    color: #212121;
+}
+.portfolio-desc {
+    color: #757575;    
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+/*footer-section*/
+footer{ background-color:#2F303A ;}
+
+.logo-blue{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--one);
+    
+}
+.logo-w {
+    color: var(--two);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19; 
+    
+}
+.footer-adr{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--two);    
+}
+.footer-adr:focus,
+.footer-adr:hover {
+    color: var(--one);
+}
+.footer-contacts{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);    
+}
+.footer-contacts:hover,
+.footer-contacts:focus{
+    color: var(--one);    
+}
