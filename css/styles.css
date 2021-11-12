@@ -16,90 +16,82 @@ ul {
 width: 1200px;
 padding-left: 15px;
 padding-right: 15px;
-margin: 0; auto;
-display: flex;
-flex-wrap: wrap;
+margin: 0, auto;
 }
 img {
     display: block;
 }
 
-ul {list-style: none;}
 a {text-decoration: none;}
 a:hover,
 a:focus{
     color: var(--one);
 }
-body {
-    width: 1200px;
-    font-family: roboto,  sans-serif;    
-    } 
+
+body {     
+    font-family: roboto,  sans-serif;  
+      } 
 
     ul {list-style: none;}
     /*header-section*/    
-    .header{        
+    .header{                
         text-decoration: none;
-        border-bottom: 1px solid #ECECEC;
-        box-shadow:  0px 4px 4px 0px #00000040;           
-        
-    }
-    .logo {
-        margin-top: 24px;
-        margin-bottom: 25px;
-        margin-right: 93px;
-    }
-    .h-name-blue {
-        
+        border-bottom: 1px solid #ECECEC; 
+        height: 80px;
+        display: flex;
+            }            
+            .header .container {
+                display: flex;
+            }
+    .h-name-blue {        
         color: var(--one); 
         font-family: Raleway;        
         font-weight: 700;
         font-size: 26px;
-        line-height: 1.19;
+        line-height: 1,38;
     }
-    .h-name-black-d {
-        
+    .h-name-black-d {        
         color:var(--full);
         font-family: Raleway;        
         font-weight: 700;
         font-size: 26px;
-        line-height: 1.19;
+        line-height: 1,38;   
+        margin-right: 93px;
     }    
+    .logo {
+        margin-top: 24px;
+        margin-bottom: 25px;
+    }
+
     
     /*navigation*/       
     .navigation-list {
         color: var(--full);
         display: flex;
-        flex-wrap: wrap;
-        width: 294px;
-        justify-content: space-between;
-        align-items: center;
-        margin-right: 331px;
-       
-    }
+         margin-top: 32px;
+         margin-bottom: 32px;
+         margin-right: 331px;
+           }
     .navigation-list-item {
         color: #000;
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
-        
+        margin-right: 50px;        
     }
     .navigation-list-item-active{
         color: var(--one);
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
+        margin-right: 50px;
     }
     .contacts-list {
         display: flex;
-        flex-wrap: wrap;    
-        align-items: center; 
-        justify-content: space-between; 
-        width: 307px;  
-    }
-    .contacts-list>li:not(:last-child){
-        margin-right: 50px;
-    }
-    
+margin-top: 32px;
+margin-bottom: 32px;
+    }            
+   
     .contacts {
         color: var(--light);
         font-weight: 500;
