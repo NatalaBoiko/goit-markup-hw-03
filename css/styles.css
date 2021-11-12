@@ -146,13 +146,7 @@ body {
     }    
     
     /*what-we-do-section*/
-    .features {
-        display: flex;
-        flex-direction: row;
-        align-items: stretch;
-        padding: 94px 0px;
-            }  
-    
+
 
      .section-title{
         font-weight: 700;
@@ -164,13 +158,27 @@ body {
         font-size: 14px;
         line-height: 1.17;
         text-transform: uppercase;
+        margin-bottom: 0px;
     }
     .features-desc{
         font-weight: 400;
         font-size: 14px;
         line-height: 1.7;
         color: var(--light);
- 
+      
+    }
+    .features {
+        display: flex;
+
+        justify-content: space-between;
+        padding: 94px 0px;
+            }     
+    .features-contsiner{
+        width: 270px;
+        height: 96px;   
+          }
+    .features-contsiner:not(:last-child){
+        margin-right: 30px;
     }
     
 
