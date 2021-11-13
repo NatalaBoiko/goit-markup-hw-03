@@ -166,7 +166,7 @@ body {
         padding: 64px 0px 94px 0px;        
         margin-left: -30px;
             }     
-    .features-contsiner{
+    .features-conteiner{
        flex-basis:calc(100%/4);
         height: 96px;   
         margin-top: 30px;
@@ -247,7 +247,7 @@ body {
 
 .portfolio-what-we-do-section {
 padding-top: 94px;
-padding-bottom: 50px;
+padding-bottom: 27px;
 
 }
 .button-list{
@@ -279,28 +279,42 @@ padding-bottom: 50px;
    
 /*portfolio-section*/
 .portfolio-section{
-    display: flex;
+    padding-top: 0px;
+    padding-bottom: 94px;       
 }
+.portfolio-list {  
+    display: flex;
+    flex-wrap: wrap;  
+justify-content: space-between;
+
+}
+
+.portfolio-list-item {    
+ border: 1px solid #EEEEEE;
+ margin-top: 29px;    
+}
+
+
 .portfolio-title{
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
-    color: #212121;
+    color: #212121;    
+    margin: 20px 24px 4px 24px;
 }
 .portfolio-desc {
     color: #757575;    
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
+    margin: 0px 24px 20px 24px;
 }
 
 /*footer-section*/
 footer{
      background-color:#2F303A ;
      padding-top: 60px;
-     padding-bottom: 51px;
-     padding-left: 215px;
-     padding-right: auto;
+     padding-bottom: 51px; 
     }
 .footer-logo {
     display: flex;
