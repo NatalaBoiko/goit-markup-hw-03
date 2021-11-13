@@ -32,6 +32,8 @@ a:focus{
 
 body {     
     font-family: roboto,  sans-serif;  
+
+    p
       } 
 
 .container {
@@ -157,31 +159,10 @@ body {
     
     /*what-we-do-section*/
 
-
-     .section-title{
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 42px;
-     }
-    .features-title{
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 1.17;
-        text-transform: uppercase;
-        margin-bottom: 0px;
-    }
-    .features-desc{
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.7;
-        color: var(--light);
-      
-    }
     .features {
         display: flex;
         justify-content: space-between;
-        padding: 64px 0px;
-        
+        padding: 64px 0px 94px 0px;        
         margin-left: -30px;
             }     
     .features-contsiner{
@@ -190,6 +171,39 @@ body {
         margin-top: 30px;
         margin-left: 30px;
           }
+          .features-title{
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 1.17;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+        .features-desc{
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 1.7;
+            color: var(--light);
+          
+        }
+
+   .section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+       text-align: center;
+       padding-bottom: 50px;
+   }       
+   .photo-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 0px 94px 0px;        
+    margin-left: -30px;
+   }
+   .photo {
+    flex-basis:calc(100%/3);
+    margin-top: 30px;
+    margin-left: 30px;
+   }
 
 
 /*our-team-section*/
