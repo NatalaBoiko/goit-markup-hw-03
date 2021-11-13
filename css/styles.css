@@ -22,6 +22,7 @@ ul {
 
 img {
     display: block;
+    max-width: 100%;
 }
 
 a {text-decoration: none;}
@@ -32,8 +33,6 @@ a:focus{
 
 body {     
     font-family: roboto,  sans-serif;  
-
-    p
       } 
 
 .container {
@@ -71,6 +70,7 @@ body {
         
     }    
     .logo {
+    
         margin-top: 24px;
         margin-bottom: 25px;
         display: flex;
@@ -200,8 +200,7 @@ body {
     margin-left: -30px;
    }
    .photo {
-    flex-basis:calc(100%/3);
-    margin-top: 30px;
+    flex-basis:calc(100%/3);    
     margin-left: 30px;
    }
 
@@ -210,13 +209,30 @@ body {
 .our-team-section{
 
 }
-.member-name{
+.team-list{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 94px;
+}
+.card {
+
+    box: shadow 3px; 
+}
+
+.team-list-item {
+    display: block;
+    text-align: center;
+    box-shadow:5px solid black;
+}
+.team-name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     color: var(--full);
+    margin: 30px auto 10px auto;
+ 
 }
-.member-desc{
+.team-desc{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
@@ -258,8 +274,17 @@ body {
 }
 
 /*footer-section*/
-footer{ background-color:#2F303A ;}
-
+footer{
+     background-color:#2F303A ;
+     padding-top: 60px;
+     padding-bottom: 51px;
+     padding-left: 215px;
+     padding-right: auto;
+    }
+.footer-logo {
+    display: flex;
+    margin-bottom: 20px;
+}
 .logo-blue{
     font-family: Raleway;
     font-style: normal;
@@ -283,6 +308,8 @@ footer{ background-color:#2F303A ;}
     font-size: 14px;
     line-height: 1.71;
     color: var(--two);    
+    display: flex;
+    margin-bottom: 9px;
 }
 .footer-adr:focus,
 .footer-adr:hover {
@@ -293,7 +320,10 @@ footer{ background-color:#2F303A ;}
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    color: rgba(255, 255, 255, 0.6);    
+    color: rgba(255, 255, 255, 0.6);  
+    display: flex;  
+    margin-bottom: 9px;
+
 }
 .footer-contacts:hover,
 .footer-contacts:focus{
