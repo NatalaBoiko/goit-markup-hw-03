@@ -49,9 +49,8 @@ body {
     .header{
         border-bottom: 1px solid #ECECEC; 
         padding-top: 24px;
-        padding-bottom: 24px;    
-        align-content: center;
-             }            
+        padding-bottom: 24px;  
+              }            
     .header .container {
                 display: flex;
             }
